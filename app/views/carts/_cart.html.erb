@@ -14,5 +14,6 @@
       </table>
       <%= button_to 'Empty cart', cart,
       method: :delete,
+      remote: true,
       data: { confirm: 'Are you sure?' } %>
 </article>
