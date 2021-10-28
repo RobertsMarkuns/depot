@@ -7,6 +7,7 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails51 for more book information.
 #---
 Rails.application.routes.draw do
+  resources :users
   resources :orders
   resources :line_items
   resources :carts
