@@ -29,10 +29,6 @@ es:
       news:        "Noticias"
       contact:     "Contacto"
 
-      line_items:
-        line_item:
-          remove: "Eliminar línea de pedido"
-
   carts:
     cart:
       title:       "Carrito de la Compra"
@@ -43,6 +39,10 @@ es:
     index:
       title_html:  "Su Cat&aacute;logo de Pragmatic"
       add_html:    "A&ntilde;adir al Carrito"
+
+  line_items:
+    line_item:
+      remove: "Eliminar línea de pedido"
 
   orders:
     new:

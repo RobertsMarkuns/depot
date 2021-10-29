@@ -1,5 +1,5 @@
 class LineItemsController < ApplicationController
-  skip_before_action :authorize, only: :create
+  skip_before_action :authorize, only: [:create, :destroy]
 
   include CurrentCart
   include VisitCounter

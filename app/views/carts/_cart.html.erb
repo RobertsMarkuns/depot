@@ -2,7 +2,7 @@
   <% if notice %>
   <aside id="notice"><%= notice %></aside>
   <% end %>
-    <h2>t('.title')</h2>
+    <h2> <%=t('.title')%></h2>
       <table>
         <%= render(cart.line_items) %>
         <tfoot>

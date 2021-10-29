@@ -11,57 +11,57 @@ lv:
 
   errors:
     template:
-      body:        "Radās problēmas ar šādiem laukiem:"
+      body: "Radās problēmas ar šādiem laukiem:"
       header:
-        one:       "1 kļūda aizliedza saglabāt šo %{model}"
-        other:     "%{count} kļūdas neļāva saglabāt šo %{model}"
+        one: "1 kļūda aizliedza saglabāt šo %{model}"
+        other:  "%{count} kļūdas neļāva saglabāt šo %{model}"
 
-  application:
-    layouts:
+  layouts:
+    application:
       title: "Pragmatiskais grāmatu plaukts"
       home: "Sākuma lapa"
       questions: "Jautājumi"
       news: "Ziņas"
       contact: "Kontakti"
 
-      line_items:
-        line_item:
-          remove: "Izņemt produktu"
+  line_items:
+    line_item:
+      remove: "Izņemt produktu"
 
-      carts:
-        cart:
-          title:       "Jūsu grozs"
-          empty:       "Tukšs grozs"
-          checkout:    "Iegādāties"
+  carts:
+    cart:
+      title: "Jūsu grozs"
+      empty: "Iztukšot grozu"
+      checkout: "Iegādāties"
 
-      store:
-        index:
-          title_html:  "Jūsu pragmatiskais katalogs"
-          add_html:    "Pievienot grozam"
+  store:
+    index:
+      title_html:  "Jūsu pragmatiskais katalogs"
+      add_html:    "Pievienot grozam"
 
-      orders:
-        new:
-          legend:       "Lūdzu, ievadiet savu informāciju"
-        form:
-          name:         "Vārds"
-          address_html: "Adrese"
-          email:        "E-pasts"
-          pay_type:     "Maksājiet ar"
-          pay_prompt_html: "Izvēlieties maksājuma veidu"
-          submit:       "Pasūtīt"
+  orders:
+    new:
+      legend:       "Lūdzu, ievadiet savu informāciju"
+    form:
+      name:         "Vārds"
+      address_html: "Adrese"
+      email:        "E-pasts"
+      pay_type:     "Maksājiet ar"
+      pay_prompt_html: "Izvēlieties maksājuma veidu"
+      submit:       "Pasūtīt"
 
-          pay_types:
-            check:           "Čeks"
-            credit_card:     "Kredītkarte"
-            purchase_order:  "Pirkuma pasūtījums"
-          check_pay_type:
-            routing_number: "Maršruta Nr."
-            account_number: "Konts #"
-          credit_card_pay_type:
-            cc_number: "CC #"
-            expiration_date: "Derīguma termiņš"
-          purchase_order_pay_type:
-            po_number: "PO #"
+    pay_types:
+      check:           "Čeks"
+      credit_card:     "Kredītkarte"
+      purchase_order:  "Pirkuma pasūtījums"
+      check_pay_type:
+      routing_number: "Maršruta Nr."
+      account_number: "Konts #"
+      credit_card_pay_type:
+      cc_number: "CC #"
+      expiration_date: "Derīguma termiņš"
+      purchase_order_pay_type:
+      po_number: "PO #"
 
 
-      thanks:          "Paldies par jūsu pasutījumu"
+    thanks: "Paldies par jūsu pasutījumu"
